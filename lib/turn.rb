@@ -38,7 +38,7 @@ def turn(board)
 
   until valid_move?(board, input) == true
     puts "invalid move try again"
-    uinput 
+    uinput = gets.chomp
     input = input_to_index(uinput)
   end
 end
