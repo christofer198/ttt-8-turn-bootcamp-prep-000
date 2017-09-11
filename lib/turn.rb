@@ -35,6 +35,6 @@ def turn(board)
   input = gets.chomp
 
   input_to_index(input)
-  input = 99
+  move(board, input, move)
 
 end
