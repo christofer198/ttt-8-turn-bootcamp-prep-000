@@ -40,5 +40,4 @@ def turn(board)
   if valid_move?(board, input) == true
     return true
   end
-
 end
