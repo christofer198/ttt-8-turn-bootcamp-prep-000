@@ -9,8 +9,8 @@ end
 
 def input_to_index(index)
 
-  inpu = index.to_i - 1
-  inpu
+  input = index.to_i - 1
+  return input
 
 end
 
@@ -33,11 +33,11 @@ def turn(board)
 
   puts "Please enter 1-9:"
 
-  input = gets.chomp
+  uinput = gets.chomp
 
-  input_to_index(input)
+  input_to_index(uinput)
 
-  if valid_move?(board, inpu) == true
+  if valid_move?(board, input) == true
     return true
   end
 
