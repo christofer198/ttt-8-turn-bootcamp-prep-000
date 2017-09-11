@@ -36,7 +36,7 @@ def turn(board)
 
   input_to_index(input)
 
-  if 1 == 1
+  if input_to_index == 0
     return true
   end
 
