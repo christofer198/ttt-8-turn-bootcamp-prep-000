@@ -16,4 +16,3 @@ def valid_move?(board, index)
     break
   end
 end
-    
