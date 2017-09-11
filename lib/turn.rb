@@ -34,6 +34,6 @@ def turn(board)
   input = gets.chomp
   input_to_index(input)
   valid_move?(board, input)
-  
+
 
 end
