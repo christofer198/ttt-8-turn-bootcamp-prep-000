@@ -42,6 +42,6 @@ def turn(board)
     input = input_to_index(uinput)
   end
 
-  move(board,input,"X")
-    
+  move(board,input)
+
 end
