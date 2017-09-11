@@ -41,4 +41,7 @@ def turn(board)
     uinput = gets.chomp
     input = input_to_index(uinput)
   end
+
+  move(board,input,"X")
+    
 end
