@@ -25,7 +25,5 @@ end
 
 def move(board, index, move = "X")
 
-  if valid_move? == true
     board[index] = move
-  end
 end
