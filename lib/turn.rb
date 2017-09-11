@@ -36,7 +36,9 @@ def turn(board)
 
   input = input_to_index(uinput)
 
-  if valid_move?(board, input) == true
-    return true
+  until valid_move?(board, input) == true
+    puts "invalid move try again"
+    uinput
+    input = input_to_index(uinput)
   end
 end
